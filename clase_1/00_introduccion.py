@@ -43,3 +43,8 @@ En está primera clase hemos visto:
 - Como escribir comentarios -> las dos opciones son con # (comentarios de una línea) ó con tres comillas para abrir y tres para cerrar, cometarios de varias líneas
 - Y nuestras primeras líneas de código el famoso Hola Mundo!
 '''
+
+'''
+ Algo importante para todo el curso es que utilizaremos a la hora de crear los variables
+ snake case. Todas las variables en minuscula y separando las palabras con un guión bajo
+ '''
