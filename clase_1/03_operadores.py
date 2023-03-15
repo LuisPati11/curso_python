@@ -64,3 +64,11 @@ bin(num1 >> 2)
 # Bitwise desplazamiento a la derecha
 num1 = 0b00111100
 bin(num1 << 2)
+
+# 3.5 Operador de aumento
+''' En python no existe ++ ó -- en vez de esto usaremos lo siguiente'''
+num1=11
+num1+=1
+num2=10
+num2-=1
+print(num1,num2)

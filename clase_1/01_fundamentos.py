@@ -40,31 +40,3 @@ print(type(int), id(int))
 print(type(float), id(float))
 print(type(funcion), id(funcion))
 print(type(clase), id(clase))
-
-print("\n2. TIPOS DE DATOS BÁSICOS")
-'''
-• Integers
-• Floats
-• Booleans
-• None
-
-'''
-print("\n2.1 Integers")
-int_dec = 18
-int_hex = 0xFF
-int_bin = 0b00001111
-print(int_dec)
-print(int_hex)
-print(int_bin)
-
-print("\n2.2 Floats")
-# La precisión de los floats es específica de la implementación
-float1 = 0.852
-float2 = 1 / 3
-print(float1)
-print(float2)
-# Notación científica
-float_sci = 2.3e-6
-print(float_sci)
-
-print("\n2.3 Booleans")
