@@ -1,4 +1,4 @@
-print("1. FUNDAMENTOS EN PYTHON")
+# 1. FUNDAMENTOS EN PYTHON
 
 # La función de impresión es sólo 'print
 print("Hola Mundo!") #Puedes usar tanto comillas simples como comillas dobles
@@ -10,15 +10,15 @@ a=1
 total = 123 + \
 456 + \
 999
-print(total)
+#print(total)
 
 # El tipo de variable puede cambiar en cualquier momento
 variable = 1
-print(variable)
+#print(variable)
 variable = 0.123
-print(variable)
+#print(variable)
 variable = 'some text'
-print(variable)
+#print(variable)
 
 # Python distingue entre mayúsculas y minúsculas
 variable = 1
@@ -36,7 +36,7 @@ def funcion():
     pass
 class clase(object):
     pass
-print(type(int), id(int))
-print(type(float), id(float))
-print(type(funcion), id(funcion))
-print(type(clase), id(clase))
+#print(type(int), id(int))
+#print(type(float), id(float))
+#print(type(funcion), id(funcion))
+#print(type(clase), id(clase))

@@ -2,12 +2,12 @@
 
 # 3.1 Aritmética
 # Los operadores aritméticos habituales
-print(20 + 7)
-print(20 - 7)
-print(20 * 7)
-print(20 / 7)
-print(20 % 7) # Resto
-print(20 ** 7) # 20^7
+#print(20 + 7)
+#print(20 - 7)
+#print(20 * 7)
+#print(20 / 7)
+#print(20 % 7) # Resto
+#print(20 ** 7) # 20^7
 
 # 3.1.1 División de coma flotante frente a división de enteros
 '''El operador / realiza la división en coma flotante y devuelve float,

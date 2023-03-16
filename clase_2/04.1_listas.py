@@ -1,6 +1,6 @@
 # 4 ESTRUCTURAS DE DATOS BASICAS
 '''
-- Lista
+- LISTA
 - Diccionario
 - Conjunto
 - Tupla
@@ -128,11 +128,18 @@ lista = [1, 2, 3, 4, 5]
 print(lista[2])
 # Indexación negativa - contando desde el final de la lista
 lista = [1, 2, 3, 4, 5]
-print(lista[-2])
+#print(lista[-2])
 
 # 4.1.6 Slicing
 # Obtener un rango de valores con slicing
 lista = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(lista[:5])
-print(lista[5:])
-print(lista[2:8])
+#print(lista[:5])
+#print(lista[5:])
+#print(lista[2:8])
+
+# Una forma más de invertir una lista
+lista = [10, 20, 30, 40, 50]
+lista_invertida = lista[::-1]
+#print(lista_invertida)
+
+
