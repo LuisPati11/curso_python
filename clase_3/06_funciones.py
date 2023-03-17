@@ -33,3 +33,38 @@ print(res1, res2, res3)
 # Guardar valores en una tupla
 res_all = devolver_varios()
 print(res_all)
+
+# 6.3 Argumentos
+# Podemos pasar arguemntos a las funciones
+def pasar_a_mayuscula(texto):
+    print(texto.upper())
+pasar_a_mayuscula("Te elijo a ti!")
+
+# Orgumentos opcionales (debe aparecer como el último argumento tras los requeridos)
+def sumar_todo(n, *args):
+    total = n + sum(args)
+    return total
+print(sumar_todo(1))
+print(sumar_todo(1, 776))
+print(sumar_todo(1, 120, 455))
+
+#Argumentos por defecto
+def funcion(arg1=11, arg2='mec', arg3=None):
+    print(f'1º argumento: {arg1}, 2º argumento: {arg2}, 3º argumento:{arg3}')
+funcion()
+funcion(arg1="CR7",arg2=777)
+funcion(arg2='Yabo', arg3=112)
+funcion(arg3=23, arg2='Messi')
+#some_func(unknown_argument='wont work')
+
+# 6.4 Campos de aplicación de las variables
+# 6.4.1 Variables globales
+variable = 'Hola yo soy una variable global'
+def funcion():
+    variable += '!!!'
+    print(variable)
+funcion()
+
+
+
+
