@@ -1,6 +1,7 @@
 # 5. Control de flujo
 
 # 5.1 Sentencias condicionales
+
 # 'if-else'
 x = 0
 if x == 0:
@@ -25,3 +26,39 @@ else:
 lista = [1, 2, 3, 4]
 for elemento in lista:
     print(elemento)
+
+# Bucle for con break
+lista = [-3, -2, -1, 0, 1, 2, 3]
+for elemento in lista:
+    if elemento < 0:
+        print(elemento)
+    else:
+        break
+print('Fin')
+
+# Bucle for con continue
+lista = [-3, -2, -1, 0, 1, 2, 3]
+for elemento in lista:
+    if elemento < 0:
+        continue
+    print(elemento)
+print('Fin')
+
+# Bucle for con else
+n = 11
+lista = [-3, -2, -1, 0, 1, 2, 3]
+for elemento in lista:
+    if elemento == n:
+        print('Encontrado!')
+        break
+else:
+    # Solo pasa por aquí si el bucle acaba todas sus iteraciones
+    print('Elemento no encontrado')
+
+# 5.3 Bucle while
+x = 0
+while True:
+    print(x)
+    x += 1
+    if x > 4:
+        break
