@@ -55,15 +55,21 @@ funcion()
 funcion(arg1="CR7",arg2=777)
 funcion(arg2='Yabo', arg3=112)
 funcion(arg3=23, arg2='Messi')
-#some_func(unknown_argument='wont work')
+#funcion(arg='no funciona')
 
 # 6.4 Campos de aplicación de las variables
-# 6.4.1 Variables globales
-variable = 'Hola yo soy una variable global'
-def funcion():
-    variable += '!!!'
+variable = 'Yo soy una variable global'
+def funcion_externa():
+    variable = 'Yo soy una variable externa'
+    def funcion_interna():
+        variable = 'Yo soy una variable interna'
+        print(variable)
+    funcion_interna()
     print(variable)
-funcion()
+funcion_externa()
+print(variable)
+
+
 
 
 
