@@ -107,7 +107,6 @@ Se produce cuando alguna operación o función se aplica a un objeto de tipo inc
 
 'yoda' + 777
 '''
-
 # ValueError
 '''
 Se produce cuando alguna función recibe un argumento de tipo correcto pero de valor incorrecto
@@ -115,3 +114,17 @@ Se produce cuando alguna función recibe un argumento de tipo correcto pero de v
 print(int("11"))
 print(int("Camavinga"))
 '''
+
+# 9.3 Assertions
+'''
+Una aserción es una expresión booleana que siempre debe ser verdadera en el código.
+Una aserción fallida indica un error irrecuperable y deben utilizarse para detectar errores
+(inesperados) en el código - no para comprobar errores esperados en tiempo de ejecución.
+'''
+def fibonacci(maximo):
+    assert maximo > 0, 'Positive integer expected'
+    s1, s2 = 1, 1
+    while s1 <= maximo:
+        yield s1
+        s1, s2 = s2, s1 + s2
+secuencia = list(fibonacci(-20))
